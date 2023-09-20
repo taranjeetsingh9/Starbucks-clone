@@ -1,0 +1,107 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   border: 2px solid rgb(205, 205, 205);
+   background-color:antiquewhite;
+  
+}
+.nav img {
+    width: 70px;
+    margin: 2px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+   
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+   padding: 14px 16px;
+   text-decoration: none;
+   color:black;
+
+}
+li a:hover {
+ color: green;
+   
+}
+.featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  
+    background-color: #a0c292;
+
+    
+
+}
+.image-container {
+  width: 600px;
+  height: 550px;
+  
+ 
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.para {
+    width: 600px;
+    height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  background-color: #a0c292;
+    margin-right: 10;
+   
+}
+h1 {
+    font-size: 50px;
+}
+.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f6bfd9;
+  
+}
+.para1{
+    width: 600px;
+    height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+ 
+    margin-right: 10;
+   
+}
+.makeOrder {
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    
+
+}
+.makeOrder a {
+    color: black;
+}
+.makeOrder:hover {
+    background-color: antiquewhite;
+}

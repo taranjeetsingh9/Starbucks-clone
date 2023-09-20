@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+   background-image: url("afour.jpeg");
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   border: 2px solid rgb(205, 205, 205);
+   background-color:antiquewhite;
+  
+}
+.nav img {
+    width: 70px;
+    margin: 2px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+   
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+   padding: 14px 16px;
+   text-decoration: none;
+   color:black;
+
+}
+li a:hover {
+ color: green;
+   
+}
+.types {
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.leftImage {
+    width: 500px;
+    height: 700px;
+    border: 2px solid antiquewhite;
+    margin: 5px;
+    opacity: 0.7;
+}
+.leftImage img {
+    width: 100%;
+    height: 100%;
+}
+.Fourtypes {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+.type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+}
+.hot {
+    background-color:antiquewhite;
+  
+    margin: 70px;
+    
+    width: 250px;
+    height: 70px;
+}
+.cold { background-color:antiquewhite;
+  
+    width: 250px;
+    height: 70px;
+    margin: 70px;
+   
+}
+.drinks { background-color:antiquewhite;
+    margin: 70px;
+   
+    width: 250px;
+    height: 70px;
+}
+.juices { background-color:antiquewhite;
+  
+    margin: 70px; 
+
+    width: 250px;
+    height: 70px;
+}

@@ -1,0 +1,57 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   border: 2px solid rgb(205, 205, 205);
+   background-color:antiquewhite;
+  
+}
+.nav img {
+    width: 70px;
+    height: 50px;
+    margin: 2px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+   
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+   padding: 14px 16px;
+   text-decoration: none;
+   color:black;
+
+}
+li a:hover {
+ color: green;
+   
+}
+h2 {
+    text-align: center;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.orderDetails{
+    background-color: red;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid black;
+}

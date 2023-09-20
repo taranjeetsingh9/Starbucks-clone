@@ -1,0 +1,155 @@
+body {
+    padding: 0px;
+    margin: 0px;
+   background-size: cover;
+ 
+   
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+   border: 2px solid rgb(205, 205, 205);
+   background-color:antiquewhite;
+  
+}
+.nav img {
+    width: 70px;
+    margin: 2px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+   
+}
+li {
+    float: left;
+} 
+li a {
+   display: block; 
+    text-align: center;
+    margin: 10px;
+   padding: 14px 16px;
+   text-decoration: none;
+   color:black;
+
+}
+li a:hover {
+ color: green;
+   
+}
+ .showcoffee {
+   margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   text-align: center;
+
+  padding: 10px;
+ 
+} 
+.showcoffee>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid rgb(249, 225, 7);
+}
+/*.showcoffee > div {
+    background-color: antiquewhite;
+   height: 150px;
+   width: 200px;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   text-align: center;
+} */
+.finalFsize {
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.size {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: baseline;
+  
+}
+.selectionf{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-top: 100px;
+   margin-right: 100px;
+}
+label {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+select {
+    
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: yellow ;
+    font-size: 16px;
+width: 150px;
+text-align: center;
+}
+
+button {
+    position: absolute;
+    bottom: 1.5%;
+    right: -29%;
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgba(14, 15, 14, 0.798);
+    border-radius: 25px;
+    color: black;
+}
+.regular {
+    height: 200px;
+}
+.regular > img {
+    width: 100%;
+    height: 100%;
+}
+/* just offers transition try not final */
+.offers {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    size: 40%;
+   
+}
+.offers img {
+    width: 400px;
+   border-radius: 200%;
+   border: 2px solid rgb(249, 225, 7);
+}
+form {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    display: block;
+}
